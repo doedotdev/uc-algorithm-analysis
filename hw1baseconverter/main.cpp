@@ -126,11 +126,11 @@ linkedList object; // where we store the temporary list
 void changeBase(int p, int b){
     if( p > 0){
         if(p%b >= 0 && p%b <= 9){
-            object.pushFront(to_string(p%b));
+            object.pushFront(to_string(p%b)); // push the value 1 - 9 to the list (depending on the base)
         }
-        else{
+        else{ // could use lower case a here. but nbd
             string str(1,'A' + p%b - 10); // shift it the mod, -10, (anything in the first 10 digits, 0 - 9 is handled above with real Digits
-            object.pushFront(str);
+            object.pushFront(str); // push the char converted to string to the list
         }
 
         changeBase(p/b, b); // recursive call after division by the base
