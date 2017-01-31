@@ -14,6 +14,5 @@ public class Main extends horneralg{
         co[6] = "1";
         horneralg object = new horneralg();
         System.out.println(object.getAnswer(co,size,6));
-
     }
 }

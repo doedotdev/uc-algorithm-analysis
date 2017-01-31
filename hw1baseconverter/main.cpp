@@ -124,6 +124,9 @@ private: // DONE
 linkedList object; // where we store the temporary list
 
 void changeBase(int p, int b){
+    if(p < 0 ){ // will allow you to compute the negative value of p in base 2, not tested with all other values
+        p = 256 + p;
+    }
     if( p > 0){
         if(p%b >= 0 && p%b <= 9){
             object.pushFront(to_string(p%b)); // push the value 1 - 9 to the list (depending on the base)
