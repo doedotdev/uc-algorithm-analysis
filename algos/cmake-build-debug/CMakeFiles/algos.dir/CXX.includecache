@@ -483,6 +483,12 @@ euclid.h
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h
 
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/horner.h
+string
+-
+string.h
+-
+vector
+-
 
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/hornerTest.cpp
 iostream
@@ -493,4 +499,6 @@ gmock/gmock.h
 -
 horner.h
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/horner.h
+vector
+-
 
