@@ -25,14 +25,8 @@ class euclid {
         return gcd(b, a%b);
     }
 
-    // checks id gcd returned teh correct gcd of 2 integers
-    bool check(int a, int b){
-        int g = gcd(a,b);
-        return (a%g == 0) && (b%g == 0);
-    }
-
     private:
-    // NONE??
+    // none
 };
 
 
