@@ -327,6 +327,33 @@ test/hornerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/hornerTest.cpp.s
 .PHONY : test/hornerTest.cpp.s
 
+test/insertionSortTest.o: test/insertionSortTest.cpp.o
+
+.PHONY : test/insertionSortTest.o
+
+# target to build an object file
+test/insertionSortTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/insertionSortTest.cpp.o
+.PHONY : test/insertionSortTest.cpp.o
+
+test/insertionSortTest.i: test/insertionSortTest.cpp.i
+
+.PHONY : test/insertionSortTest.i
+
+# target to preprocess a source file
+test/insertionSortTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/insertionSortTest.cpp.i
+.PHONY : test/insertionSortTest.cpp.i
+
+test/insertionSortTest.s: test/insertionSortTest.cpp.s
+
+.PHONY : test/insertionSortTest.s
+
+# target to generate assembly for a file
+test/insertionSortTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/insertionSortTest.cpp.s
+.PHONY : test/insertionSortTest.cpp.s
+
 test/quickSortTest.o: test/quickSortTest.cpp.o
 
 .PHONY : test/quickSortTest.o
@@ -410,6 +437,9 @@ help:
 	@echo "... test/hornerTest.o"
 	@echo "... test/hornerTest.i"
 	@echo "... test/hornerTest.s"
+	@echo "... test/insertionSortTest.o"
+	@echo "... test/insertionSortTest.i"
+	@echo "... test/insertionSortTest.s"
 	@echo "... test/quickSortTest.o"
 	@echo "... test/quickSortTest.i"
 	@echo "... test/quickSortTest.s"
