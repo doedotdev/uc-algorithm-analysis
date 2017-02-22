@@ -16,9 +16,9 @@ Design and Analysis of Algorithms
 <br>
 
 <h3>Bubble Sort</h3>
-<h5>Best Case: O(n)</h5>
-<h5>Worst Case: O(n^2)</h5>
-<h5>Average Case: O(n^2)</h5>
+<p>Best Case: O(n)</p>
+<p>Worst Case: O(n^2)</p>
+<p>Average Case: O(n^2)</p>
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm - Implementation</a>
 <br>
