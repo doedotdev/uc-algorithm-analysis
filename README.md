@@ -52,3 +52,14 @@ Average Case: O(n^2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/selectionSortTest.cpp">Selection Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Insertion Sort</h3>
+```
+Best Case: O(n^2)
+Worst Case: O(n^2)
+Average Case: O(n^2)
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/insertionSort.h">Insertion Sort Algorithm - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/insertionSortTest.cpp">Insertion Sort Algorithm - Unit Tests</a>
+<br>
+
