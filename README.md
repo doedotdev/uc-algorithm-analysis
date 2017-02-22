@@ -39,9 +39,9 @@ Average Case: O(n log n)
 
 <h3>Selection Sort</h3>
 ```
-Best Case: O(n log n)
+Best Case: O(n^2)
 Worst Case: O(n^2)
-Average Case: O(n log n)
+Average Case: O(n^2)
 ```
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/selectionSort.h">Selection Sort Algorithm - Implementation</a>
