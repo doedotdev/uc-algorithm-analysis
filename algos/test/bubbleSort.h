@@ -34,7 +34,7 @@ public:
 
         bool is_switched = true;
         while (is_switched){
-            is_switched = false;
+            is_switched = false; // set back to false at the beginning of the list travseral
             for (unsigned int i = 0; i < data.size() - 1; i++){
                 if (data[i] > data[i + 1]){
                     std::swap(data[i], data[i + 1]);
