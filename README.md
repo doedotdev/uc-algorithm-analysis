@@ -74,3 +74,10 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSortTest.cpp">Merge Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Misc Items</h3>
+```
+Comparisons, races, and other things.
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/sortTest.cpp">Compare all sorts sorting 10,000 items</a>
+<br>
+
