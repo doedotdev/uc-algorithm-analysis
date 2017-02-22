@@ -249,6 +249,54 @@ CMakeFiles/algos.dir/test/mergeSortTest.cpp.o.provides: CMakeFiles/algos.dir/tes
 CMakeFiles/algos.dir/test/mergeSortTest.cpp.o.provides.build: CMakeFiles/algos.dir/test/mergeSortTest.cpp.o
 
 
+CMakeFiles/algos.dir/test/sortTest.cpp.o: CMakeFiles/algos.dir/flags.make
+CMakeFiles/algos.dir/test/sortTest.cpp.o: ../test/sortTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/algos.dir/test/sortTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algos.dir/test/sortTest.cpp.o -c /Users/benjamin.horn/Documents/git/algorithms/algos/test/sortTest.cpp
+
+CMakeFiles/algos.dir/test/sortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algos.dir/test/sortTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benjamin.horn/Documents/git/algorithms/algos/test/sortTest.cpp > CMakeFiles/algos.dir/test/sortTest.cpp.i
+
+CMakeFiles/algos.dir/test/sortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algos.dir/test/sortTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benjamin.horn/Documents/git/algorithms/algos/test/sortTest.cpp -o CMakeFiles/algos.dir/test/sortTest.cpp.s
+
+CMakeFiles/algos.dir/test/sortTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/algos.dir/test/sortTest.cpp.o.requires
+
+CMakeFiles/algos.dir/test/sortTest.cpp.o.provides: CMakeFiles/algos.dir/test/sortTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/sortTest.cpp.o.provides.build
+.PHONY : CMakeFiles/algos.dir/test/sortTest.cpp.o.provides
+
+CMakeFiles/algos.dir/test/sortTest.cpp.o.provides.build: CMakeFiles/algos.dir/test/sortTest.cpp.o
+
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o: CMakeFiles/algos.dir/flags.make
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o: ../test/reverseNumberTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o -c /Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumberTest.cpp
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algos.dir/test/reverseNumberTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumberTest.cpp > CMakeFiles/algos.dir/test/reverseNumberTest.cpp.i
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algos.dir/test/reverseNumberTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumberTest.cpp -o CMakeFiles/algos.dir/test/reverseNumberTest.cpp.s
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.requires
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.provides: CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.provides.build
+.PHONY : CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.provides
+
+CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.provides.build: CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o
+
+
 # Object files for target algos
 algos_OBJECTS = \
 "CMakeFiles/algos.dir/main.cpp.o" \
@@ -258,7 +306,9 @@ algos_OBJECTS = \
 "CMakeFiles/algos.dir/test/quickSortTest.cpp.o" \
 "CMakeFiles/algos.dir/test/selectionSortTest.cpp.o" \
 "CMakeFiles/algos.dir/test/insertionSortTest.cpp.o" \
-"CMakeFiles/algos.dir/test/mergeSortTest.cpp.o"
+"CMakeFiles/algos.dir/test/mergeSortTest.cpp.o" \
+"CMakeFiles/algos.dir/test/sortTest.cpp.o" \
+"CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o"
 
 # External object files for target algos
 algos_EXTERNAL_OBJECTS =
@@ -271,12 +321,14 @@ algos: CMakeFiles/algos.dir/test/quickSortTest.cpp.o
 algos: CMakeFiles/algos.dir/test/selectionSortTest.cpp.o
 algos: CMakeFiles/algos.dir/test/insertionSortTest.cpp.o
 algos: CMakeFiles/algos.dir/test/mergeSortTest.cpp.o
+algos: CMakeFiles/algos.dir/test/sortTest.cpp.o
+algos: CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o
 algos: CMakeFiles/algos.dir/build.make
 algos: lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 algos: lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
 algos: lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 algos: CMakeFiles/algos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable algos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable algos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -292,6 +344,8 @@ CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/quickSortTest.cpp.o.req
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/selectionSortTest.cpp.o.requires
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/insertionSortTest.cpp.o.requires
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/mergeSortTest.cpp.o.requires
+CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/sortTest.cpp.o.requires
+CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o.requires
 
 .PHONY : CMakeFiles/algos.dir/requires
 
