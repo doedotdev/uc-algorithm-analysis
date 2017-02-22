@@ -63,3 +63,14 @@ Average Case: O(n^2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/insertionSortTest.cpp">Insertion Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Merge Sort</h3>
+```
+Best Case: O(n log n)
+Worst Case: O(n log n)
+Average Case: O(n log n)
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSort.h">Merge Sort Algorithm - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSortTest.cpp">Merge Sort Algorithm - Unit Tests</a>
+<br>
+
