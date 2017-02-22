@@ -334,6 +334,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/main.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSort.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSortTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h">
 			<Option target="algos"/>
 		</Unit>

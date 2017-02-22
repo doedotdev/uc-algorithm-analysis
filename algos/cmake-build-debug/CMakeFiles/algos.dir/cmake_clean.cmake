@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/algos.dir/main.cpp.o"
   "CMakeFiles/algos.dir/test/hornerTest.cpp.o"
   "CMakeFiles/algos.dir/test/euclidTest.cpp.o"
+  "CMakeFiles/algos.dir/test/bubbleSortTest.cpp.o"
   "algos.pdb"
   "algos"
 )

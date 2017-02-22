@@ -246,6 +246,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/bubbleSortTest.o: test/bubbleSortTest.cpp.o
+
+.PHONY : test/bubbleSortTest.o
+
+# target to build an object file
+test/bubbleSortTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/bubbleSortTest.cpp.o
+.PHONY : test/bubbleSortTest.cpp.o
+
+test/bubbleSortTest.i: test/bubbleSortTest.cpp.i
+
+.PHONY : test/bubbleSortTest.i
+
+# target to preprocess a source file
+test/bubbleSortTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/bubbleSortTest.cpp.i
+.PHONY : test/bubbleSortTest.cpp.i
+
+test/bubbleSortTest.s: test/bubbleSortTest.cpp.s
+
+.PHONY : test/bubbleSortTest.s
+
+# target to generate assembly for a file
+test/bubbleSortTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/bubbleSortTest.cpp.s
+.PHONY : test/bubbleSortTest.cpp.s
+
 test/euclidTest.o: test/euclidTest.cpp.o
 
 .PHONY : test/euclidTest.o
@@ -320,6 +347,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/bubbleSortTest.o"
+	@echo "... test/bubbleSortTest.i"
+	@echo "... test/bubbleSortTest.s"
 	@echo "... test/euclidTest.o"
 	@echo "... test/euclidTest.i"
 	@echo "... test/euclidTest.s"
