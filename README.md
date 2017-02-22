@@ -16,10 +16,11 @@ Design and Analysis of Algorithms
 <br>
 
 <h3>Bubble Sort</h3>
-<h5>Best Case: <em>O(n)<em><h5>
-<h5>Worst Case: <h5>
+<h5>Best Case: O(n)<h5>
+<h5>Worst Case: O(n^2)<h5>
+<h5>Average Case: O(n^2)<h5>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Horner's Algorithm - Implementation</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSortTest.cpp">Horner's Algorithm - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSortTest.cpp">Bubble Sort Algorithm - Unit Tests</a>
 <br>
