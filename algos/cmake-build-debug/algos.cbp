@@ -358,6 +358,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/insertionSortTest.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSort.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSortTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSort.h">
 			<Option target="algos"/>
 		</Unit>
