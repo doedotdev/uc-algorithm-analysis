@@ -14,26 +14,24 @@ Design and Analysis of Algorithms
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/hornerTest.cpp">Horner's Algorithm - Unit Tests</a>
 <br>
-```
-Best Case: O(n)
-Worst Case: O(n^2)
-Average Case: O(n^2)
-```
+
+<h3>Bubble Sort</h3>
+<br>
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm - Implementation</a>
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSortTest.cpp">Bubble Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Bubble Sort</h3>
+<h3>Quick Sort</h3>
 ```
-Best Case: O(n)
+Best Case: O(n log n)
 Worst Case: O(n^2)
-Average Case: O(n^2)
+Average Case: O(n log n)
 ```
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm - Implementation</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/quickSort.h">Quick Sort Algorithm - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSortTest.cpp">Bubble Sort Algorithm - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/quickSortTest.cpp">Quick Sort Algorithm - Unit Tests</a>
 <br>
 
