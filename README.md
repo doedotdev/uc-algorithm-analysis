@@ -16,7 +16,6 @@ Design and Analysis of Algorithms
 <br>
 
 <h3>Bubble Sort</h3>
-<br>
 ```
 Best Case: O(n)
 Worst Case: O(n^2)
@@ -29,7 +28,6 @@ Average Case: O(n^2)
 <br>
 
 <h3>Quick Sort</h3>
-<br>
 ```
 Best Case: O(n log n)
 Worst Case: O(n^2)
