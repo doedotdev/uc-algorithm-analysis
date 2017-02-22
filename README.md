@@ -14,11 +14,11 @@ Design and Analysis of Algorithms
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/hornerTest.cpp">Horner's Algorithm - Unit Tests</a>
 <br>
-
-<h3>Bubble Sort</h3>
-<p>Best Case: O(n)</p>
-<p>Worst Case: O(n^2)</p>
-<p>Average Case: O(n^2)</p>
+```
+Best Case: O(n)
+Worst Case: O(n^2)
+Average Case: O(n^2)
+```
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm - Implementation</a>
 <br>
@@ -27,9 +27,9 @@ Design and Analysis of Algorithms
 
 <h3>Bubble Sort</h3>
 ```
-<p>Best Case: O(n)</p>
-<p>Worst Case: O(n^2)</p>
-<p>Average Case: O(n^2)</p>
+Best Case: O(n)
+Worst Case: O(n^2)
+Average Case: O(n^2)
 ```
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSort.h">Bubble Sort Algorithm - Implementation</a>
