@@ -327,6 +327,33 @@ test/hornerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/hornerTest.cpp.s
 .PHONY : test/hornerTest.cpp.s
 
+test/quickSortTest.o: test/quickSortTest.cpp.o
+
+.PHONY : test/quickSortTest.o
+
+# target to build an object file
+test/quickSortTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/quickSortTest.cpp.o
+.PHONY : test/quickSortTest.cpp.o
+
+test/quickSortTest.i: test/quickSortTest.cpp.i
+
+.PHONY : test/quickSortTest.i
+
+# target to preprocess a source file
+test/quickSortTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/quickSortTest.cpp.i
+.PHONY : test/quickSortTest.cpp.i
+
+test/quickSortTest.s: test/quickSortTest.cpp.s
+
+.PHONY : test/quickSortTest.s
+
+# target to generate assembly for a file
+test/quickSortTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/quickSortTest.cpp.s
+.PHONY : test/quickSortTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -356,6 +383,9 @@ help:
 	@echo "... test/hornerTest.o"
 	@echo "... test/hornerTest.i"
 	@echo "... test/hornerTest.s"
+	@echo "... test/quickSortTest.o"
+	@echo "... test/quickSortTest.i"
+	@echo "... test/quickSortTest.s"
 .PHONY : help
 
 

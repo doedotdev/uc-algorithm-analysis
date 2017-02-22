@@ -352,6 +352,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/hornerTest.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSort.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSortTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
