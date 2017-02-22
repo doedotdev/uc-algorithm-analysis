@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclidTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/euclidTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/hornerTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/hornerTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/quickSortTest.cpp.o"
+  "/Users/benjamin.horn/Documents/git/algorithms/algos/test/selectionSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/selectionSortTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

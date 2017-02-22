@@ -5,7 +5,7 @@
 #include <iostream>
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "bubbleSort.h"
+#include "selectionSort.h"
 #include <time.h>
 
 
@@ -13,13 +13,13 @@ using testing::Eq;
 using namespace std;
 
 namespace {
-    class testClassBubble : public testing::Test {
+    class testClassSelection : public testing::Test {
     public:
     };
 }
 
-TEST_F(testClassBubble, test1){
-    bubble object;
+TEST_F(testClassSelection, test1){
+    selectionSort object;
     vector<int> my_vec;
     srand(time(0));
     int number_of_items = 0;
@@ -31,8 +31,8 @@ TEST_F(testClassBubble, test1){
 }
 
 
-TEST_F(testClassBubble, test2){
-    bubble object;
+TEST_F(testClassSelection, test2){
+    selectionSort object;
     vector<int> my_vec;
     srand(time(0));
     int number_of_items = 1;
@@ -43,8 +43,8 @@ TEST_F(testClassBubble, test2){
     ASSERT_TRUE(object.isSorted(my_vec));
 }
 
-TEST_F(testClassBubble, test3){
-    bubble object;
+TEST_F(testClassSelection, test3){
+    selectionSort object;
     vector<int> my_vec;
     srand(time(0));
     int number_of_items = 100;
@@ -55,8 +55,8 @@ TEST_F(testClassBubble, test3){
     ASSERT_TRUE(object.isSorted(my_vec));
 }
 
-TEST_F(testClassBubble, test4){
-    bubble object;
+TEST_F(testClassSelection, test4){
+    selectionSort object;
     vector<int> my_vec;
     srand(time(0));
     int number_of_items = 1000;
@@ -69,8 +69,8 @@ TEST_F(testClassBubble, test4){
 }
 
 
-TEST_F(testClassBubble, test5){
-    bubble object;
+TEST_F(testClassSelection, test5){
+    selectionSort object;
     vector<int> my_vec;
     srand(time(0));
     int number_of_items = 10000;
