@@ -54,7 +54,7 @@ Average Case: O(n^2)
 
 <h3>Insertion Sort</h3>
 ```
-Best Case: O(n^2)
+Best Case: O(n)
 Worst Case: O(n^2)
 Average Case: O(n^2)
 ```
