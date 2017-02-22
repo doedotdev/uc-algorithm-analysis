@@ -37,3 +37,15 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/quickSortTest.cpp">Quick Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Selection Sort</h3>
+```
+Best Case: O(n log n)
+Worst Case: O(n^2)
+Average Case: O(n log n)
+```
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/selectionSort.h">Selection Sort Algorithm - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/selectionSortTest.cpp">Selection Sort Algorithm - Unit Tests</a>
+<br>
+
