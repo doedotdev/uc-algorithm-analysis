@@ -73,7 +73,6 @@ public:
             recursiveQuickSort(i, index_end, data); // recall because right side is not done
     }
 
-
     void quickSortAlgo(vector<int>& data){
         if (isSorted(data)){ return; }
         recursiveQuickSort(0, data.size() - 1, data); // does not work; update, fixed

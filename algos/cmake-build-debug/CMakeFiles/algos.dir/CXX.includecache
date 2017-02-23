@@ -470,6 +470,22 @@ gtest/gtest.h
 gmock/gmock.h
 -
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h
+vector
+-
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearchTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+binarySearch.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h
+time.h
+-
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSort.h
 string
 -

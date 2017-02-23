@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/algos.dir/test/mergeSortTest.cpp.o"
   "CMakeFiles/algos.dir/test/sortTest.cpp.o"
   "CMakeFiles/algos.dir/test/powersTest.cpp.o"
+  "CMakeFiles/algos.dir/test/binarySearchTest.cpp.o"
   "algos.pdb"
   "algos"
 )

@@ -334,6 +334,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/main.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearchTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSort.h">
 			<Option target="algos"/>
 		</Unit>
