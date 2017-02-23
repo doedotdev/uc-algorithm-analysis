@@ -246,6 +246,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/binDigits.o: test/binDigits.cpp.o
+
+.PHONY : test/binDigits.o
+
+# target to build an object file
+test/binDigits.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.o
+.PHONY : test/binDigits.cpp.o
+
+test/binDigits.i: test/binDigits.cpp.i
+
+.PHONY : test/binDigits.i
+
+# target to preprocess a source file
+test/binDigits.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.i
+.PHONY : test/binDigits.cpp.i
+
+test/binDigits.s: test/binDigits.cpp.s
+
+.PHONY : test/binDigits.s
+
+# target to generate assembly for a file
+test/binDigits.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.s
+.PHONY : test/binDigits.cpp.s
+
 test/binarySearchTest.o: test/binarySearchTest.cpp.o
 
 .PHONY : test/binarySearchTest.o
@@ -536,6 +563,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/binDigits.o"
+	@echo "... test/binDigits.i"
+	@echo "... test/binDigits.s"
 	@echo "... test/binarySearchTest.o"
 	@echo "... test/binarySearchTest.i"
 	@echo "... test/binarySearchTest.s"
