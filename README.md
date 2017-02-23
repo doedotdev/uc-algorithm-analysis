@@ -3,7 +3,8 @@ Design and Analysis of Algorithms
 
 <h3>Euclidean</h3>
 ```
-Calculating the greatest common divisor of 2 integers. 
+Calculating the greatest common divisor of 2 integers.
+Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci number.
 ```
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">Euclidean Algorithm - Implementation</a>
 <br>
