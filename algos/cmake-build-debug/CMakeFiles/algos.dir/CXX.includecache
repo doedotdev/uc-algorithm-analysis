@@ -510,6 +510,20 @@ bubbleSort.h
 time.h
 -
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergent.h
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+divergent.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergent.h
+time.h
+-
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h
 
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/euclidTest.cpp

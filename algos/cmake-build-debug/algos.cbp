@@ -334,12 +334,6 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/main.cpp">
 			<Option target="algos"/>
 		</Unit>
-		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binDigits.cpp">
-			<Option target="algos"/>
-		</Unit>
-		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binDigits.h">
-			<Option target="algos"/>
-		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h">
 			<Option target="algos"/>
 		</Unit>
@@ -350,6 +344,12 @@
 			<Option target="algos"/>
 		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSortTest.cpp">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergent.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp">
 			<Option target="algos"/>
 		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h">

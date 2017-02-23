@@ -246,33 +246,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/binDigits.o: test/binDigits.cpp.o
-
-.PHONY : test/binDigits.o
-
-# target to build an object file
-test/binDigits.cpp.o:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.o
-.PHONY : test/binDigits.cpp.o
-
-test/binDigits.i: test/binDigits.cpp.i
-
-.PHONY : test/binDigits.i
-
-# target to preprocess a source file
-test/binDigits.cpp.i:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.i
-.PHONY : test/binDigits.cpp.i
-
-test/binDigits.s: test/binDigits.cpp.s
-
-.PHONY : test/binDigits.s
-
-# target to generate assembly for a file
-test/binDigits.cpp.s:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.s
-.PHONY : test/binDigits.cpp.s
-
 test/binarySearchTest.o: test/binarySearchTest.cpp.o
 
 .PHONY : test/binarySearchTest.o
@@ -326,6 +299,33 @@ test/bubbleSortTest.s: test/bubbleSortTest.cpp.s
 test/bubbleSortTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/bubbleSortTest.cpp.s
 .PHONY : test/bubbleSortTest.cpp.s
+
+test/divergentTest.o: test/divergentTest.cpp.o
+
+.PHONY : test/divergentTest.o
+
+# target to build an object file
+test/divergentTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/divergentTest.cpp.o
+.PHONY : test/divergentTest.cpp.o
+
+test/divergentTest.i: test/divergentTest.cpp.i
+
+.PHONY : test/divergentTest.i
+
+# target to preprocess a source file
+test/divergentTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/divergentTest.cpp.i
+.PHONY : test/divergentTest.cpp.i
+
+test/divergentTest.s: test/divergentTest.cpp.s
+
+.PHONY : test/divergentTest.s
+
+# target to generate assembly for a file
+test/divergentTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/divergentTest.cpp.s
+.PHONY : test/divergentTest.cpp.s
 
 test/euclidTest.o: test/euclidTest.cpp.o
 
@@ -563,15 +563,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/binDigits.o"
-	@echo "... test/binDigits.i"
-	@echo "... test/binDigits.s"
 	@echo "... test/binarySearchTest.o"
 	@echo "... test/binarySearchTest.i"
 	@echo "... test/binarySearchTest.s"
 	@echo "... test/bubbleSortTest.o"
 	@echo "... test/bubbleSortTest.i"
 	@echo "... test/bubbleSortTest.s"
+	@echo "... test/divergentTest.o"
+	@echo "... test/divergentTest.i"
+	@echo "... test/divergentTest.s"
 	@echo "... test/euclidTest.o"
 	@echo "... test/euclidTest.i"
 	@echo "... test/euclidTest.s"

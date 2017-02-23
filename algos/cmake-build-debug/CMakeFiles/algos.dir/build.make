@@ -321,28 +321,28 @@ CMakeFiles/algos.dir/test/binarySearchTest.cpp.o.provides: CMakeFiles/algos.dir/
 CMakeFiles/algos.dir/test/binarySearchTest.cpp.o.provides.build: CMakeFiles/algos.dir/test/binarySearchTest.cpp.o
 
 
-CMakeFiles/algos.dir/test/binDigits.cpp.o: CMakeFiles/algos.dir/flags.make
-CMakeFiles/algos.dir/test/binDigits.cpp.o: ../test/binDigits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/algos.dir/test/binDigits.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algos.dir/test/binDigits.cpp.o -c /Users/benjamin.horn/Documents/git/algorithms/algos/test/binDigits.cpp
+CMakeFiles/algos.dir/test/divergentTest.cpp.o: CMakeFiles/algos.dir/flags.make
+CMakeFiles/algos.dir/test/divergentTest.cpp.o: ../test/divergentTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/algos.dir/test/divergentTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algos.dir/test/divergentTest.cpp.o -c /Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp
 
-CMakeFiles/algos.dir/test/binDigits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algos.dir/test/binDigits.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benjamin.horn/Documents/git/algorithms/algos/test/binDigits.cpp > CMakeFiles/algos.dir/test/binDigits.cpp.i
+CMakeFiles/algos.dir/test/divergentTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algos.dir/test/divergentTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp > CMakeFiles/algos.dir/test/divergentTest.cpp.i
 
-CMakeFiles/algos.dir/test/binDigits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algos.dir/test/binDigits.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benjamin.horn/Documents/git/algorithms/algos/test/binDigits.cpp -o CMakeFiles/algos.dir/test/binDigits.cpp.s
+CMakeFiles/algos.dir/test/divergentTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algos.dir/test/divergentTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp -o CMakeFiles/algos.dir/test/divergentTest.cpp.s
 
-CMakeFiles/algos.dir/test/binDigits.cpp.o.requires:
+CMakeFiles/algos.dir/test/divergentTest.cpp.o.requires:
 
-.PHONY : CMakeFiles/algos.dir/test/binDigits.cpp.o.requires
+.PHONY : CMakeFiles/algos.dir/test/divergentTest.cpp.o.requires
 
-CMakeFiles/algos.dir/test/binDigits.cpp.o.provides: CMakeFiles/algos.dir/test/binDigits.cpp.o.requires
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/binDigits.cpp.o.provides.build
-.PHONY : CMakeFiles/algos.dir/test/binDigits.cpp.o.provides
+CMakeFiles/algos.dir/test/divergentTest.cpp.o.provides: CMakeFiles/algos.dir/test/divergentTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/divergentTest.cpp.o.provides.build
+.PHONY : CMakeFiles/algos.dir/test/divergentTest.cpp.o.provides
 
-CMakeFiles/algos.dir/test/binDigits.cpp.o.provides.build: CMakeFiles/algos.dir/test/binDigits.cpp.o
+CMakeFiles/algos.dir/test/divergentTest.cpp.o.provides.build: CMakeFiles/algos.dir/test/divergentTest.cpp.o
 
 
 # Object files for target algos
@@ -358,7 +358,7 @@ algos_OBJECTS = \
 "CMakeFiles/algos.dir/test/sortTest.cpp.o" \
 "CMakeFiles/algos.dir/test/powersTest.cpp.o" \
 "CMakeFiles/algos.dir/test/binarySearchTest.cpp.o" \
-"CMakeFiles/algos.dir/test/binDigits.cpp.o"
+"CMakeFiles/algos.dir/test/divergentTest.cpp.o"
 
 # External object files for target algos
 algos_EXTERNAL_OBJECTS =
@@ -374,7 +374,7 @@ algos: CMakeFiles/algos.dir/test/mergeSortTest.cpp.o
 algos: CMakeFiles/algos.dir/test/sortTest.cpp.o
 algos: CMakeFiles/algos.dir/test/powersTest.cpp.o
 algos: CMakeFiles/algos.dir/test/binarySearchTest.cpp.o
-algos: CMakeFiles/algos.dir/test/binDigits.cpp.o
+algos: CMakeFiles/algos.dir/test/divergentTest.cpp.o
 algos: CMakeFiles/algos.dir/build.make
 algos: lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 algos: lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
@@ -399,7 +399,7 @@ CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/mergeSortTest.cpp.o.req
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/sortTest.cpp.o.requires
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/powersTest.cpp.o.requires
 CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/binarySearchTest.cpp.o.requires
-CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/binDigits.cpp.o.requires
+CMakeFiles/algos.dir/requires: CMakeFiles/algos.dir/test/divergentTest.cpp.o.requires
 
 .PHONY : CMakeFiles/algos.dir/requires
 
