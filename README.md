@@ -77,6 +77,17 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSortTest.cpp">Merge Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Divergent Number Series</h3>
+```
+1 + 2 + 3 + ... + n
+Can be done quicker using the code below.
+Tests comparing the time differnece between the standard and quick way of computing the divergent series up to n.
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergent.h">Divergent - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Divergent - Unit Tests</a>
+<br>
+
 <h3>Compute Powers</h3>
 ```
 When computing x^n . . .
