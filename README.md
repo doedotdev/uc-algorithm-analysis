@@ -14,6 +14,8 @@ Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci nu
 <h3>Horner</h3>
 ```
 Calculating the value of a polynomial. 
+Normal Solution: 2n mulitplactions and n additions
+Horner's Solution: n multiplications and n additions -> Optimal!
 ```
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/horner.h">Horner's Algorithm - Implementation</a>
 <br>
