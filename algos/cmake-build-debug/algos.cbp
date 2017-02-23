@@ -364,6 +364,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSortTest.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/powers.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/powersTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSort.h">
 			<Option target="algos"/>
 		</Unit>

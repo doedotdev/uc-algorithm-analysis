@@ -381,6 +381,33 @@ test/mergeSortTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/mergeSortTest.cpp.s
 .PHONY : test/mergeSortTest.cpp.s
 
+test/powersTest.o: test/powersTest.cpp.o
+
+.PHONY : test/powersTest.o
+
+# target to build an object file
+test/powersTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/powersTest.cpp.o
+.PHONY : test/powersTest.cpp.o
+
+test/powersTest.i: test/powersTest.cpp.i
+
+.PHONY : test/powersTest.i
+
+# target to preprocess a source file
+test/powersTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/powersTest.cpp.i
+.PHONY : test/powersTest.cpp.i
+
+test/powersTest.s: test/powersTest.cpp.s
+
+.PHONY : test/powersTest.s
+
+# target to generate assembly for a file
+test/powersTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/powersTest.cpp.s
+.PHONY : test/powersTest.cpp.s
+
 test/quickSortTest.o: test/quickSortTest.cpp.o
 
 .PHONY : test/quickSortTest.o
@@ -497,6 +524,9 @@ help:
 	@echo "... test/mergeSortTest.o"
 	@echo "... test/mergeSortTest.i"
 	@echo "... test/mergeSortTest.s"
+	@echo "... test/powersTest.o"
+	@echo "... test/powersTest.i"
+	@echo "... test/powersTest.s"
 	@echo "... test/quickSortTest.o"
 	@echo "... test/quickSortTest.i"
 	@echo "... test/quickSortTest.s"

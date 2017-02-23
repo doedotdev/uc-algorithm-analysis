@@ -586,6 +586,18 @@ mergeSort.h
 time.h
 -
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/powers.h
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/powersTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+powers.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/powers.h
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSort.h
 vector
 -

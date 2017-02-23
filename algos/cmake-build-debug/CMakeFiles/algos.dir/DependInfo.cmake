@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/hornerTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/hornerTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/insertionSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/insertionSortTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/mergeSortTest.cpp.o"
+  "/Users/benjamin.horn/Documents/git/algorithms/algos/test/powersTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/powersTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/quickSortTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/selectionSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/selectionSortTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/sortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/sortTest.cpp.o"
