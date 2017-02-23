@@ -370,12 +370,6 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/quickSortTest.cpp">
 			<Option target="algos"/>
 		</Unit>
-		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumber.h">
-			<Option target="algos"/>
-		</Unit>
-		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumberTest.cpp">
-			<Option target="algos"/>
-		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/selectionSort.h">
 			<Option target="algos"/>
 		</Unit>

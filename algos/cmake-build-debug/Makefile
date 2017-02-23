@@ -408,33 +408,6 @@ test/quickSortTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/quickSortTest.cpp.s
 .PHONY : test/quickSortTest.cpp.s
 
-test/reverseNumberTest.o: test/reverseNumberTest.cpp.o
-
-.PHONY : test/reverseNumberTest.o
-
-# target to build an object file
-test/reverseNumberTest.cpp.o:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o
-.PHONY : test/reverseNumberTest.cpp.o
-
-test/reverseNumberTest.i: test/reverseNumberTest.cpp.i
-
-.PHONY : test/reverseNumberTest.i
-
-# target to preprocess a source file
-test/reverseNumberTest.cpp.i:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/reverseNumberTest.cpp.i
-.PHONY : test/reverseNumberTest.cpp.i
-
-test/reverseNumberTest.s: test/reverseNumberTest.cpp.s
-
-.PHONY : test/reverseNumberTest.s
-
-# target to generate assembly for a file
-test/reverseNumberTest.cpp.s:
-	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/reverseNumberTest.cpp.s
-.PHONY : test/reverseNumberTest.cpp.s
-
 test/selectionSortTest.o: test/selectionSortTest.cpp.o
 
 .PHONY : test/selectionSortTest.o
@@ -527,9 +500,6 @@ help:
 	@echo "... test/quickSortTest.o"
 	@echo "... test/quickSortTest.i"
 	@echo "... test/quickSortTest.s"
-	@echo "... test/reverseNumberTest.o"
-	@echo "... test/reverseNumberTest.i"
-	@echo "... test/reverseNumberTest.s"
 	@echo "... test/selectionSortTest.o"
 	@echo "... test/selectionSortTest.i"
 	@echo "... test/selectionSortTest.s"

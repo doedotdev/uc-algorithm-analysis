@@ -18,8 +18,6 @@ using namespace std;
 
 class mergeSort {
 public:
-
-
     void printList(vector<int> a){
         if (a.size() == 0){
             cout << "[empty]" << endl;
@@ -37,7 +35,7 @@ public:
 
     bool isSorted(vector<int> data){
         if (data.size() <= 1){
-            cout << "List is Sorted" << endl;
+            //cout << "List is Sorted" << endl;
             return true;
         }
 
@@ -46,14 +44,58 @@ public:
                 return false;
             }
         }
-        cout << "List is Sorted" << endl;
+        //cout << "List is Sorted" << endl;
         return true;
     }
 
+    //overloaded mergesort function that gets called with left & right parameters
+    void mergeSortAlgo(vector<int>& data, int left, int right){
+        if(left < right){
+            int mid = (left + right)/2;
+            //recursively split into halves then merge to sort them
+            mergeSortAlgo(data, left, mid);
+            mergeSortAlgo(data, mid+1, right);
+            merge(data, left, mid, right);
+        }
+        return;
+    }
 
+    //merge function to combine two (sorted) halves of list
+    void merge(vector<int>& data, int left, int mid, int right){
+        int pos1 = left;
+        int pos2 = mid + 1;
+        int count = left;
+        int temp[data.size()];
+        while(pos1 <= mid && pos2 <= right){//while there are still values in each (sorted) half, add (in order) to temp array
+            if(data[pos1] < data[pos2]){
+                temp[count] = data[pos1];
+                pos1++;
+                count++;
+            }else{
+                temp[count] = data[pos2];
+                pos2++;
+                count++;
+            }
+        }
+
+        while(pos1 <= mid){//add remaining values of first half in second half is empty
+            temp[count] = data[pos1];
+            pos1++;
+            count++;
+        }
+        while(pos2 <= right){//add remaining values of second half if first half is empty
+            temp[count] = data[pos2];
+            pos2++;
+            count++;
+        }
+        for(int k = left; k < count; k++){//place data in correct location in original array
+            data[k] = temp[k];
+        }
+    }
+
+
+    /*
     void mergeSortAlgo(vector<int>& data){ // divide into two halfs
-        if (isSorted(data)){ return; }
-
         vector<int> fir(data.begin(), data.begin() + data.size() / 2);
         vector<int> las(data.begin() + data.size() / 2, data.end());
 
@@ -61,10 +103,15 @@ public:
         sort(las.begin(), las.begin() + las.size());
         merge(fir.begin(), fir.begin() + fir.size(), las.begin(), las.begin() + las.size(), data.begin());
     }
-
+*/
 
     void runCurrentSort(vector<int> & data){
-        mergeSortAlgo(data);
+        if( isSorted(data)){
+            return;
+        }
+        else{
+            mergeSortAlgo(data,0, data.size()-1);
+        }
     }
 };
 

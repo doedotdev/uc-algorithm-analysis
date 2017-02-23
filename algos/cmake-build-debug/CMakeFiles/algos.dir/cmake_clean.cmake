@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/algos.dir/test/insertionSortTest.cpp.o"
   "CMakeFiles/algos.dir/test/mergeSortTest.cpp.o"
   "CMakeFiles/algos.dir/test/sortTest.cpp.o"
-  "CMakeFiles/algos.dir/test/reverseNumberTest.cpp.o"
   "algos.pdb"
   "algos"
 )

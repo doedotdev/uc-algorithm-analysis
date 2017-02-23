@@ -616,20 +616,6 @@ quickSort.h
 time.h
 -
 
-/Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumber.h
-
-/Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumberTest.cpp
-iostream
--
-gtest/gtest.h
--
-gmock/gmock.h
--
-reverseNumber.h
-/Users/benjamin.horn/Documents/git/algorithms/algos/test/reverseNumber.h
-time.h
--
-
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/selectionSort.h
 vector
 -
