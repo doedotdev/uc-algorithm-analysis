@@ -82,7 +82,7 @@ Using Powers Algorithm Below: 2*log(2)n calculations -> 2(log base 2)n calculati
 ```
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powers.h">Powers - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powerstest.cpp">Powers - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powersTest.cpp">Powers - Unit Tests</a>
 <br>
 
 <h3>Misc Items</h3>
