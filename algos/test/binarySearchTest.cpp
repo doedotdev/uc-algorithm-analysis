@@ -70,7 +70,7 @@ TEST_F(testClassBinarySearch, test5){
     for(int i = 0; i < number_of_items; i++){
         my_vec.push_back(i);
     }
-    ASSERT_TRUE(object.binSearchCall(my_vec,556869));
+    ASSERT_TRUE(object.binSearchCall(my_vec,999999));
 }
 
 TEST_F(testClassBinarySearch, test6){
@@ -82,7 +82,7 @@ TEST_F(testClassBinarySearch, test6){
         my_vec.push_back(i);
     }
     for(int i = 0 ; i < my_vec.size(); i++){
-        if(my_vec.at(i) == 556869){
+        if(my_vec.at(i) == 999999){
             ASSERT_TRUE(1);
         }
     }
