@@ -74,6 +74,17 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSortTest.cpp">Merge Sort Algorithm - Unit Tests</a>
 <br>
 
+<h3>Compute Powers</h3>
+```
+When computing x^n . . .
+Normal Power Computation: x^n = n-1 calculations 
+Using Powers Algorithm Below: 2*log(2)n calculations -> 2(log base 2)n calculations
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powers.h">Powers - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powerstest.cpp">Powers - Unit Tests</a>
+<br>
+
 <h3>Misc Items</h3>
 ```
 Comparisons, races, and other things.
