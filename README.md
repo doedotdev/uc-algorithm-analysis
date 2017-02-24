@@ -88,6 +88,21 @@ Tests comparing the time differnece between the standard and quick way of comput
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Divergent - Unit Tests</a>
 <br>
 
+<h3>Computing Max Min</h3>
+```
+Computing Max: n-1
+Computing Min: n-1
+Computing Max and Min: 2n-2
+But it can be faster!
+Computing max and min: (3n/2) - 2
+How?
+Check the implementation below!
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergent.h">Divergent - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Divergent - Unit Tests</a>
+<br>
+
 <h3>Compute Powers</h3>
 ```
 When computing x^n . . .
