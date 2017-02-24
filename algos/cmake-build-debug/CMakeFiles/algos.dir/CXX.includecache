@@ -536,6 +536,22 @@ gmock/gmock.h
 euclid.h
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/findMinMax.h
+vector
+-
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/findMinMaxTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+findMinMax.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/findMinMax.h
+time.h
+-
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/horner.h
 string
 -

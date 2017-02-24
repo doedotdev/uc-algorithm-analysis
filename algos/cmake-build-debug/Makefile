@@ -354,6 +354,33 @@ test/euclidTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/euclidTest.cpp.s
 .PHONY : test/euclidTest.cpp.s
 
+test/findMinMaxTest.o: test/findMinMaxTest.cpp.o
+
+.PHONY : test/findMinMaxTest.o
+
+# target to build an object file
+test/findMinMaxTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/findMinMaxTest.cpp.o
+.PHONY : test/findMinMaxTest.cpp.o
+
+test/findMinMaxTest.i: test/findMinMaxTest.cpp.i
+
+.PHONY : test/findMinMaxTest.i
+
+# target to preprocess a source file
+test/findMinMaxTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/findMinMaxTest.cpp.i
+.PHONY : test/findMinMaxTest.cpp.i
+
+test/findMinMaxTest.s: test/findMinMaxTest.cpp.s
+
+.PHONY : test/findMinMaxTest.s
+
+# target to generate assembly for a file
+test/findMinMaxTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/findMinMaxTest.cpp.s
+.PHONY : test/findMinMaxTest.cpp.s
+
 test/hornerTest.o: test/hornerTest.cpp.o
 
 .PHONY : test/hornerTest.o
@@ -575,6 +602,9 @@ help:
 	@echo "... test/euclidTest.o"
 	@echo "... test/euclidTest.i"
 	@echo "... test/euclidTest.s"
+	@echo "... test/findMinMaxTest.o"
+	@echo "... test/findMinMaxTest.i"
+	@echo "... test/findMinMaxTest.s"
 	@echo "... test/hornerTest.o"
 	@echo "... test/hornerTest.i"
 	@echo "... test/hornerTest.s"

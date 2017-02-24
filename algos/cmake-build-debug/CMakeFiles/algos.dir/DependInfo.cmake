@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/bubbleSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/bubbleSortTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/divergentTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclidTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/euclidTest.cpp.o"
+  "/Users/benjamin.horn/Documents/git/algorithms/algos/test/findMinMaxTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/findMinMaxTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/hornerTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/hornerTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/insertionSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/insertionSortTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSortTest.cpp" "/Users/benjamin.horn/Documents/git/algorithms/algos/cmake-build-debug/CMakeFiles/algos.dir/test/mergeSortTest.cpp.o"
