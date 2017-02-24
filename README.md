@@ -97,10 +97,11 @@ But it can be faster!
 Computing max and min: (3n/2) - 2
 How?
 Check the implementation below!
+*Asuming an un-ordered list. You can of course keep track of max and min on insertion depending on your implementation. That would be O(1) speed in that case. But this is assuming you were given an entire unordered list from scratch.*
 ```
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergent.h">Divergent - Implementation</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergent.h">Max + Min - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Divergent - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Max + Min - Unit Tests</a>
 <br>
 
 <h3>Compute Powers</h3>
