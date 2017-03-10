@@ -334,6 +334,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/main.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/baseConvert.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/baseConvertTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h">
 			<Option target="algos"/>
 		</Unit>
@@ -350,6 +356,9 @@
 			<Option target="algos"/>
 		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/divergentTest.cpp">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/doublyLinkedList.h">
 			<Option target="algos"/>
 		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h">

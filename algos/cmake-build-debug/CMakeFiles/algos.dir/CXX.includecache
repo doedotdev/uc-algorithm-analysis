@@ -470,6 +470,22 @@ gtest/gtest.h
 gmock/gmock.h
 -
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/baseConvert.h
+doublyLinkedList.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/doublyLinkedList.h
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/baseConvertTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+baseConvert.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/baseConvert.h
+time.h
+-
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/binarySearch.h
 vector
 -
@@ -522,6 +538,12 @@ gmock/gmock.h
 divergent.h
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/divergent.h
 time.h
+-
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/doublyLinkedList.h
+ostream
+-
+stdexcept
 -
 
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/euclid.h

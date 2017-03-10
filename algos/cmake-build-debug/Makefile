@@ -246,6 +246,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/baseConvertTest.o: test/baseConvertTest.cpp.o
+
+.PHONY : test/baseConvertTest.o
+
+# target to build an object file
+test/baseConvertTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/baseConvertTest.cpp.o
+.PHONY : test/baseConvertTest.cpp.o
+
+test/baseConvertTest.i: test/baseConvertTest.cpp.i
+
+.PHONY : test/baseConvertTest.i
+
+# target to preprocess a source file
+test/baseConvertTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/baseConvertTest.cpp.i
+.PHONY : test/baseConvertTest.cpp.i
+
+test/baseConvertTest.s: test/baseConvertTest.cpp.s
+
+.PHONY : test/baseConvertTest.s
+
+# target to generate assembly for a file
+test/baseConvertTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/baseConvertTest.cpp.s
+.PHONY : test/baseConvertTest.cpp.s
+
 test/binarySearchTest.o: test/binarySearchTest.cpp.o
 
 .PHONY : test/binarySearchTest.o
@@ -590,6 +617,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/baseConvertTest.o"
+	@echo "... test/baseConvertTest.i"
+	@echo "... test/baseConvertTest.s"
 	@echo "... test/binarySearchTest.o"
 	@echo "... test/binarySearchTest.i"
 	@echo "... test/binarySearchTest.s"
