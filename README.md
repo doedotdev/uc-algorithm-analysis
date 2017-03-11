@@ -11,6 +11,15 @@ Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci nu
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">Euclidean Algorithm - Unit Tests</a>
 <br>
 
+<h3>Base Converter</h3>
+```
+Convert any decimal digit to base N where 2 <= N <= 36
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConvert.h">Base Convert Algorithm - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConverTest.cpp">Base Convert - Unit Tests</a>
+<br>
+
 <h3>Horner</h3>
 ```
 Calculating the value of a polynomial. 
