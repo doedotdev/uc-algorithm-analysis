@@ -20,6 +20,16 @@ Convert any decimal digit to base N where 2 <= N <= 36
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConvertTest.cpp">Base Convert - Unit Tests</a>
 <br>
 
+<h3>Fibonacci</h3>
+```
+Recursion
+fib(n) = fib(n-1) + fib(n-2)
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/fib.h">Fib Algorithm - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/fibTest.cpp">Fib - Unit Tests</a>
+<br>
+
 <h3>Horner</h3>
 ```
 Calculating the value of a polynomial. 
