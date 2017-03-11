@@ -391,6 +391,15 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/insertionSortTest.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrime.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrimeBuilder.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrimeTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSort.h">
 			<Option target="algos"/>
 		</Unit>

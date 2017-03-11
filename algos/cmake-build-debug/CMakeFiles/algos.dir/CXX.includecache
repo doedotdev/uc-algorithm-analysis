@@ -636,6 +636,24 @@ insertionSort.h
 time.h
 -
 
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrime.h
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrimeBuilder.h
+vector
+-
+
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrimeTest.cpp
+iostream
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+isPrime.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrime.h
+isPrimeBuilder.h
+/Users/benjamin.horn/Documents/git/algorithms/algos/test/isPrimeBuilder.h
+
 /Users/benjamin.horn/Documents/git/algorithms/algos/test/mergeSort.h
 vector
 -

@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/algos.dir/test/findMinMaxTest.cpp.o"
   "CMakeFiles/algos.dir/test/baseConvertTest.cpp.o"
   "CMakeFiles/algos.dir/test/fibTest.cpp.o"
+  "CMakeFiles/algos.dir/test/isPrimeTest.cpp.o"
   "algos.pdb"
   "algos"
 )

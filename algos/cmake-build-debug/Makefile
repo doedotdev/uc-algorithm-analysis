@@ -489,6 +489,33 @@ test/insertionSortTest.cpp.s:
 	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/insertionSortTest.cpp.s
 .PHONY : test/insertionSortTest.cpp.s
 
+test/isPrimeTest.o: test/isPrimeTest.cpp.o
+
+.PHONY : test/isPrimeTest.o
+
+# target to build an object file
+test/isPrimeTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/isPrimeTest.cpp.o
+.PHONY : test/isPrimeTest.cpp.o
+
+test/isPrimeTest.i: test/isPrimeTest.cpp.i
+
+.PHONY : test/isPrimeTest.i
+
+# target to preprocess a source file
+test/isPrimeTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/isPrimeTest.cpp.i
+.PHONY : test/isPrimeTest.cpp.i
+
+test/isPrimeTest.s: test/isPrimeTest.cpp.s
+
+.PHONY : test/isPrimeTest.s
+
+# target to generate assembly for a file
+test/isPrimeTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algos.dir/build.make CMakeFiles/algos.dir/test/isPrimeTest.cpp.s
+.PHONY : test/isPrimeTest.cpp.s
+
 test/mergeSortTest.o: test/mergeSortTest.cpp.o
 
 .PHONY : test/mergeSortTest.o
@@ -671,6 +698,9 @@ help:
 	@echo "... test/insertionSortTest.o"
 	@echo "... test/insertionSortTest.i"
 	@echo "... test/insertionSortTest.s"
+	@echo "... test/isPrimeTest.o"
+	@echo "... test/isPrimeTest.i"
+	@echo "... test/isPrimeTest.s"
 	@echo "... test/mergeSortTest.o"
 	@echo "... test/mergeSortTest.i"
 	@echo "... test/mergeSortTest.s"

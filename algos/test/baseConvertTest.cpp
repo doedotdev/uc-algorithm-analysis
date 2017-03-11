@@ -2,8 +2,6 @@
 // Created by Benjamin D. Horn on 3/10/17.
 //
 
-
-
 #include <iostream>
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
