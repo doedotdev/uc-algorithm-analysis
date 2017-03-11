@@ -17,7 +17,7 @@ Convert any decimal digit to base N where 2 <= N <= 36
 ```
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConvert.h">Base Convert Algorithm - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConverTest.cpp">Base Convert - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConvertTest.cpp">Base Convert - Unit Tests</a>
 <br>
 
 <h3>Horner</h3>
