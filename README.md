@@ -11,6 +11,20 @@ Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci nu
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">Euclidean Algorithm - Unit Tests</a>
 <br>
 
+<h3>Primes</h3>
+```
+Claculating Primes as fast as possible. I think.
+isPrime - in java and c++
+prime builder -> finding primes based on previous primes - > cpp
+
+```
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrime.h">Primes - Implementation (cpp)</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeBuilder.h">Prime Builder - Implementation (cpp)</a>
+<br>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimetest.cpp">Prime and Builder - Unit Tests (cpp -> Google Test)</a>
+<br>
+
 <h3>Base Converter</h3>
 ```
 Convert any decimal digit to base N where 2 <= N <= 36
