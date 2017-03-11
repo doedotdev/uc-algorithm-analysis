@@ -23,6 +23,24 @@ namespace {
 TEST_F(testClassBaseConvert, test1){
     baseConvert b;
     b.changeBase(2,2);
-    ASSERT_EQ(b.getList(), 10);
+    ASSERT_EQ(b.getList(), "10");
+}
+
+TEST_F(testClassBaseConvert, test2){
+    baseConvert b;
+    b.changeBase(300,2);
+    ASSERT_EQ(b.getList(), "100101100");
+}
+
+TEST_F(testClassBaseConvert, test3){
+    baseConvert b;
+    b.changeBase(300,36);
+    ASSERT_EQ(b.getList(), "8C");
+}
+
+TEST_F(testClassBaseConvert, test4){
+    baseConvert b;
+    b.changeBase(1234,7);
+    ASSERT_EQ(b.getList(), "3412");
 }
 

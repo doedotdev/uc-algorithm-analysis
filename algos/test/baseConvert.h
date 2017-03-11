@@ -29,7 +29,7 @@ public:
     }
 
     string getList(){
-        return object.retString();
+        return object.catRet();
     }
 
 };
