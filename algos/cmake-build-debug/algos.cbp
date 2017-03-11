@@ -367,6 +367,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/euclidTest.cpp">
 			<Option target="algos"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/fib.h">
+			<Option target="algos"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/fibTest.cpp">
+			<Option target="algos"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/algorithms/algos/test/findMinMax.h">
 			<Option target="algos"/>
 		</Unit>
