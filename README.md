@@ -11,9 +11,9 @@ Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci nu
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">Euclidean Algorithm - Unit Tests</a>
 <br>
 
-<h3>Primes</h3>
+<h3>Primes (cpp)</h3>
 ```
-Claculating Primes as fast as possible. I think.
+Calculating Primes as fast as possible. I think.
 isPrime - in java and c++
 prime builder -> finding primes based on previous primes - > cpp
 
@@ -22,7 +22,18 @@ prime builder -> finding primes based on previous primes - > cpp
 <br>
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeBuilder.h">Prime Builder - Implementation (cpp)</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimetest.cpp">Prime and Builder - Unit Tests (cpp -> Google Test)</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeTest.cpp">Prime and Builder - Unit Tests (cpp -> Google Test)</a>
+<br>
+
+<h3>Primes (Java)</h3>
+```
+Actually located in my Data Encoding Repo.
+The trivial prime checker vs a fast prime checker.
+Working on a prime building application.
+```
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/prime.java">isPrime - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/primeTest.java">isPrime - Unit Tests</a>
 <br>
 
 <h3>Base Converter</h3>
