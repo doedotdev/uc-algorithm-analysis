@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -40,6 +41,10 @@ vector<int> getData(){
     return input;
 }
 
+double computeDistance(int x1, int x2, int y1, int y2){
+    return std::sqrt((x2-x1)^2+(y2-y1)^2);
+}
+
 void getDistanceMatrix(vector<int> i_val, vector<int> j_val){
     std::cout << "Distance Matrix" << std::endl;
     for(int i = 0; i < i_val.size(); i++){
@@ -47,7 +52,11 @@ void getDistanceMatrix(vector<int> i_val, vector<int> j_val){
     }
     std::cout << endl;
     for(int i = 0; i < i_val.size(); i++){
-        std::cout << "{" << i_val[i] << "," << j_val[i]<< "}" << std::endl;
+        std::cout << "{" << i_val[i] << "," << j_val[i]<< "}";
+        for ( int j = 0 ; j < j_val.size(); j++){
+            cout << "  " << computeDistance(i_val[j],i_val[i],j_val[j], j_val[i]) << "      ";
+        }
+        std::cout << endl;
     }
     std::cout << endl;
 }
