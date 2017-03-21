@@ -7,10 +7,16 @@
 #IncludeRegexTransform: 
 
 /Users/benjamin.horn/Documents/git/algorithms/hw3/main.cpp
+stdio.h
+-
 iostream
+-
+queue
 -
 vector
 -
-cmath
+string
+-
+sstream
 -
 
