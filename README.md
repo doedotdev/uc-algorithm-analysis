@@ -23,7 +23,7 @@ prime builder -> finding primes based on previous primes - > cpp
 
 [Prime and Builder - Unit Tests (cpp -> Google Test)](https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeTest.cpp)
 
-<h3>Primes (Java)</h3>
+### Primes (Java)
 ```
 Actually located in my Data Encoding Repo.
 The trivial prime checker vs a fast prime checker.
@@ -34,7 +34,7 @@ Working on a prime building application.
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/primeTest.java">isPrime - Unit Tests</a>
 <br>
 
-<h3>Base Converter</h3>
+### Base Converter
 ```
 Convert any decimal digit to base N where 2 <= N <= 36
 ```
@@ -43,7 +43,7 @@ Convert any decimal digit to base N where 2 <= N <= 36
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/baseConvertTest.cpp">Base Convert - Unit Tests</a>
 <br>
 
-<h3>Fibonacci</h3>
+### Fibonacci
 ```
 Recursion
 fib(n) = fib(n-1) + fib(n-2)
@@ -53,7 +53,7 @@ fib(n) = fib(n-1) + fib(n-2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/fibTest.cpp">Fib - Unit Tests</a>
 <br>
 
-<h3>Horner</h3>
+### Horner
 ```
 Calculating the value of a polynomial. 
 Normal Solution: 2n mulitplactions and n additions
@@ -64,7 +64,7 @@ Horner's Solution: n multiplications and n additions -> Optimal!
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/hornerTest.cpp">Horner's Algorithm - Unit Tests</a>
 <br>
 
-<h3>Bubble Sort</h3>
+### Bubble Sort
 ```
 Best Case: O(n)
 Worst Case: O(n^2)
@@ -75,7 +75,7 @@ Average Case: O(n^2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/bubbleSortTest.cpp">Bubble Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Quick Sort</h3>
+### Quick Sort
 ```
 Best Case: O(n log n)
 Worst Case: O(n^2)
@@ -86,7 +86,7 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/quickSortTest.cpp">Quick Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Selection Sort</h3>
+### Selection Sort
 ```
 Best Case: O(n^2)
 Worst Case: O(n^2)
@@ -97,7 +97,7 @@ Average Case: O(n^2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/selectionSortTest.cpp">Selection Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Insertion Sort</h3>
+### Insertion Sort
 ```
 Best Case: O(n)
 Worst Case: O(n^2)
@@ -108,7 +108,7 @@ Average Case: O(n^2)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/insertionSortTest.cpp">Insertion Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Merge Sort</h3>
+### Merge Sort
 ```
 Best Case: O(n log n)
 Worst Case: O(n log n)
@@ -119,7 +119,7 @@ Average Case: O(n log n)
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/mergeSortTest.cpp">Merge Sort Algorithm - Unit Tests</a>
 <br>
 
-<h3>Divergent Number Series</h3>
+### Divergent Number Series
 ```
 1 + 2 + 3 + ... + n
 Can be done quicker using the code below.
@@ -130,7 +130,7 @@ Tests comparing the time differnece between the standard and quick way of comput
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Divergent - Unit Tests</a>
 <br>
 
-<h3>Computing Max Min</h3>
+### Computing Max Min
 ```
 Computing Max: n-1
 Computing Min: n-1
@@ -146,7 +146,7 @@ Check the implementation below!
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/divergentTest.cpp">Max + Min - Unit Tests</a>
 <br>
 
-<h3>Compute Powers</h3>
+### Compute Powers
 ```
 When computing x^n . . .
 Normal Power Computation: x^n = n-1 calculations 
@@ -157,7 +157,7 @@ Using Powers Algorithm Below: 2*log(2)n calculations -> 2(log base 2)n calculati
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/powersTest.cpp">Powers - Unit Tests</a>
 <br>
 
-<h3>Misc Items</h3>
+### Misc Items
 ```
 Comparisons, races, and other things.
 ```
