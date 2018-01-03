@@ -1,27 +1,26 @@
 # algorithms
 Design and Analysis of Algorithms
 
-<h3>Euclidean</h3>
+### Euclidean 
 ```
 Calculating the greatest common divisor of 2 integers.
 Wost case = GCD(a,b) where a = f(n) and b = f(n+1) and n is the nth fibonacci number.
 ```
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">Euclidean Algorithm - Implementation</a>
-<br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">Euclidean Algorithm - Unit Tests</a>
-<br>
+[Euclidean Algorithm - Implementation](https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h)
 
-<h3>Primes (cpp)</h3>
+[Euclidean Algorithm - Unit Tests](https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp)
+
+### Primes (cpp)
 ```
 Calculating Primes as fast as possible. I think.
 isPrime - in java and c++
 prime builder -> finding primes based on previous primes - > cpp
 
 ```
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrime.h">Primes - Implementation (cpp)</a>
-<br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeBuilder.h">Prime Builder - Implementation (cpp)</a>
-<br>
+[Primes - Implementation (cpp)](https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrime.h)
+
+[Prime Builder - Implementation (cpp)](https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeBuilder.h)
+
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeTest.cpp">Prime and Builder - Unit Tests (cpp -> Google Test)</a>
 <br>
 
