@@ -21,8 +21,7 @@ prime builder -> finding primes based on previous primes - > cpp
 
 [Prime Builder - Implementation (cpp)](https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeBuilder.h)
 
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeTest.cpp">Prime and Builder - Unit Tests (cpp -> Google Test)</a>
-<br>
+[Prime and Builder - Unit Tests (cpp -> Google Test)](https://github.com/hornbd96/algorithms/blob/master/algos/test/isPrimeTest.cpp)
 
 <h3>Primes (Java)</h3>
 ```
