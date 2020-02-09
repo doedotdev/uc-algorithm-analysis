@@ -1,5 +1,5 @@
-# algorithms
-Design and Analysis of Algorithms
+# uc-algorithm-analysis
+University of Cincinnati - Design and Analysis of Algorithms 
 
 ### Euclidean 
 ```
